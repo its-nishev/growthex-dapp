@@ -2,6 +2,7 @@
 import Header from '../components/Header'
 import PortfolioChart from '../components/PortfolioChart'
 import BuyTokens from '../components/BuyTokens'
+import Notice from '../components/Notice'
 
 //Icons
 import { BiDotsHorizontalRounded } from 'react-icons/bi'
@@ -62,7 +63,7 @@ export default function Home() {
               <BuyTokens />
             </div>
           </div>
-          {/* <Notice /> */}
+          <Notice />
         </div>
         <div className={styles.rightMain}>
           <div className={styles.rightMainItem}>
