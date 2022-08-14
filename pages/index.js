@@ -73,11 +73,11 @@ export default function Home() {
             <BiDotsHorizontalRounded className={styles.moreOptions} />
           </div>
 
-          <Asset coin="ETH" price="0.89" />
-          <Asset coin="BTC" price="0.21" />
-          <Asset coin="SOL" price="1" />
-          <Asset coin="DOGE" price="0.43" />
-          <Asset coin="ETH" price="1.5" />
+          <Asset coin={"ETH"} price="0.89" />
+          <Asset coin={"BTC"} price="0.21" />
+          <Asset coin={"SOL"} price="1" />
+          <Asset coin={"DOGE"} price="0.43" />
+          <Asset coin={"ETH"} price="1.5" />
           
           <div className={styles.rightMainItem}>
             <div className={styles.ItemTitle}>Lists</div>
