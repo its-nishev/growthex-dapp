@@ -1,6 +1,7 @@
 //Components
 import Header from '../components/Header'
 import PortfolioChart from '../components/PortfolioChart'
+import BuyTokens from '../components/BuyTokens'
 
 //Icons
 import { BiDotsHorizontalRounded } from 'react-icons/bi'
@@ -58,7 +59,7 @@ export default function Home() {
               <div className={styles.noticeMessage}>
                 Transfer your funds here.
               </div>
-              {/* <BuyTokens /> */}
+              <BuyTokens />
             </div>
           </div>
           {/* <Notice /> */}
