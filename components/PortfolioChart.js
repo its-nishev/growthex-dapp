@@ -10,7 +10,7 @@ const data = {
     'Aug',
     'Sept',
     'Oct',
-    'Noz',
+    'Nov',
     'Dec',
     'Jan',
   ],
