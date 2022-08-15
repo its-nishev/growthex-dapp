@@ -10,11 +10,13 @@
   },
   "dependencies": {
     "chart.js": "^3.9.1",
+    "moralis": "^2.0.1",
     "next": "12.2.5",
     "react": "18.2.0",
     "react-chartjs-2": "^4.3.1",
     "react-dom": "18.2.0",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "react-moralis": "^1.4.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.8",
