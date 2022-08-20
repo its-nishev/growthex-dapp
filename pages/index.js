@@ -29,8 +29,8 @@ const styles = {
   noticeCTA: 'font-bold text-green-500 cursor-pointer mt-5',
   rightMain: 'flex flex-col flex-1 h-4/5 bg-[#1E2123] mt-6 rounded-lg overflow-y-scroll noScroll',
   rightMainItem: 'flex items-center text-black p-5 border-b border-[#30363b]',
-  ItemTitle: 'flex-1 font-bold',
-  moreOptions: 'cursor-pointer text-xl',
+  ItemTitle: 'flex-1 font-bold text-white',
+  moreOptions: 'cursor-pointer text-xl text-white',
 }
 
 export default function Home() {
@@ -68,21 +68,17 @@ export default function Home() {
         </div>
         <div className={styles.rightMain}>
           <div className={styles.rightMainItem}>
-            <div className={styles.ItemTitle}>Crypto Currencies</div>
+            <div className={styles.ItemTitle}>Stocks</div>
 
             <BiDotsHorizontalRounded className={styles.moreOptions} />
           </div>
 
-          <Asset coin={"ETH"} price="0.89" />
-          <Asset coin={"BTC"} price="0.21" />
+          <Asset coin={"APPLE"} price="0.89" />
+          <Asset coin={"GOOGLE"} price="0.21" />
           <Asset coin={"SOL"} price="1" />
           <Asset coin={"DOGE"} price="0.43" />
-          <Asset coin={"ETH"} price="1.5" />
+          <Asset coin={"HONDA"} price="1.5" />
           
-          <div className={styles.rightMainItem}>
-            <div className={styles.ItemTitle}>Lists</div>
-            <AiOutlinePlus className={styles.moreOptions} />
-          </div>
         </div>
       </div>
     </div>

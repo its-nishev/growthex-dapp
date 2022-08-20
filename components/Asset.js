@@ -2,7 +2,7 @@ import React from 'react'
 import { Line } from 'react-chartjs-2'
 
 const styles = {
-  wrapper: ' bg-white flex justify-between p-5  hover:bg-[#0f0f0f0] duration-300',
+  wrapper: ' bg-[#f0f0f0] flex justify-between p-5  hover:bg-white duration-300',
   container: 'bg-white flex flex-col text-black items-center justify-center',
   name: 'font-bold',
   chart: 'w-36 h-full',

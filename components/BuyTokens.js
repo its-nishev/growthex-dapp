@@ -15,20 +15,20 @@ const BuyTokens = () => {
         <select
           className={styles.select}
         >
-          <option className={styles.options} value='ETH'>
-            ETH
+          <option className={styles.options} value='APPLE'>
+            APPLE
           </option>
           <option className={styles.options} value='DOGE'>
             DOGE
           </option>
-          <option className={styles.options} value='USDC'>
-            USDC
+          <option className={styles.options} value='HONDA'>
+            HONDA
           </option>
           <option className={styles.options} value='LINK'>
             LINK
           </option>
-          <option className={styles.options} value='DAI'>
-            DAI
+          <option className={styles.options} value='GOOGLE'>
+            GOOGLE
           </option>
         </select>
         <select
@@ -37,14 +37,14 @@ const BuyTokens = () => {
           <option className={styles.options} value='DOGE'>
             DOGE
           </option>
-          <option className={styles.options} value='USDC'>
-            USDC
+          <option className={styles.options} value='HONDA'>
+            HONDA
           </option>
           <option className={styles.options} value='LINK'>
             LINK
           </option>
-          <option className={styles.options} value='DAI'>
-            DAI
+          <option className={styles.options} value='GOOGLE'>
+            GOOGLE
           </option>
         </select>
         <input
