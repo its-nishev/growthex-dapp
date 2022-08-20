@@ -5,7 +5,6 @@ export const RobinhoodContext = createContext()
 
 export const RobinhoodProvider = ({children}) => {
 
-
   const [currentAccount, setCurrentAccount] = useState('')
   const [formattedAccount, setFormattedAccount] = useState('')
 
@@ -36,7 +35,7 @@ export const RobinhoodProvider = ({children}) => {
     })()
   }, [currentAccount])
 
-  const ConnectWallet = () => {
+  const connectWallet = () => {
     authenticate()
   }
 
@@ -48,7 +47,7 @@ export const RobinhoodProvider = ({children}) => {
   return (
     <RobinhoodContext.Provider
       value = {{
-        ConnectWallet,
+        connectWallet,
         signOut,
         currentAccount,
         isAuthenticated,
