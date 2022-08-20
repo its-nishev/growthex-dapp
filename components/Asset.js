@@ -2,11 +2,11 @@ import React from 'react'
 import { Line } from 'react-chartjs-2'
 
 const styles = {
-  wrapper: 'flex justify-between p-5  hover:bg-[#30363B] duration-300',
-  container: 'flex flex-col text-white items-center justify-center',
+  wrapper: ' bg-white flex justify-between p-5  hover:bg-[#0f0f0f0] duration-300',
+  container: 'bg-white flex flex-col text-black items-center justify-center',
   name: 'font-bold',
   chart: 'w-36 h-full',
-  price: 'flex flex-col text-white',
+  price: 'flex flex-col text-black',
   percent: 'text-green-400',
 }
 
