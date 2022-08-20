@@ -1,6 +1,4 @@
 import React, { useContext, useEffect } from 'react'
-import logo from '../assets/logo.png'
-import Image from 'next/image'
 import { AiOutlineSearch } from 'react-icons/ai'
 import { RobinhoodContext } from '../context/robinhoodContext'
 
